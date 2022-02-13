@@ -1,6 +1,6 @@
 ## npz-blob-excluder
 
-Turn specific .npz's from TRex's output into merged .csv
+Turn specific .npz's from TRex's output into a merged .csv
 
 ### Usage
 
