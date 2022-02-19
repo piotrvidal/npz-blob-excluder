@@ -2,7 +2,7 @@
 
 def main():
     import argparse
-    from npz_to_csv import Converter
+    from modes.conversion.npz_to_csv import Converter
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-f', help='name of the .npz filename to convert and merge')
@@ -18,7 +18,6 @@ def main():
         converter.convert_and_merge()
     except Exception as error:
         print(error)
-
 
 if __name__ == '__main__':
     main()
